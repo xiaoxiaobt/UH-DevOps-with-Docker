@@ -1,0 +1,4 @@
+PS C:\Users\xiaox\Desktop\DevOps-with-Docker> docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+PS C:\Users\xiaox\Desktop\DevOps-with-Docker> docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
