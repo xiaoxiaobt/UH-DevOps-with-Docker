@@ -1,0 +1,8 @@
+PS C:\Users\xiaox> docker run -d --name test devopsdockeruh/exec_bash_exercise
+36d2273aa2e50787e4ee3930d0f5c186145d36f175410173763c47579abf0a3c
+PS C:\Users\xiaox> docker exec -it test bash
+root@36d2273aa2e5:/usr/app# tail -f ./logs.txt
+Sat, 06 Jun 2020 14:14:36 GMT
+Sat, 06 Jun 2020 14:14:39 GMT
+Secret message is:
+"Docker is easy"
