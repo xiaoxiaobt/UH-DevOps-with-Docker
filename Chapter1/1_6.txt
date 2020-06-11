@@ -1,0 +1,30 @@
+PS C:\Users\xiaox> cd Desktop
+PS C:\Users\xiaox\Desktop> mkdir temp
+PS C:\Users\xiaox\Desktop> cd temp
+PS C:\Users\xiaox\Desktop\temp> wsl nano Dockerfile
+#Write to file
+#FROM devopsdockeruh/overwrite_cmd_exercise
+#CMD ["/bin/bash"]
+PS C:\Users\xiaox\Desktop\temp> docker build -t docker-clock .
+Sending build context to Docker daemon  2.048kB
+Step 1/2 : FROM devopsdockeruh/overwrite_cmd_exercise
+ ---> 3d2b622b1849
+Step 2/2 : CMD ["/bin/bash"]
+ ---> Using cache
+ ---> a3c3fb8cc46d
+Successfully built a3c3fb8cc46d
+Successfully tagged docker-clock:latest
+SECURITY WARNING: You are building a Docker image from Windows against a non-Windows Docker host. All files and directories added to build context will have '-rwxr-xr-x' permissions. It is recommended to double check and reset permissions for sensitive files and directories.
+PS C:\Users\xiaox\Desktop\temp> docker run docker-clock -c 0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
