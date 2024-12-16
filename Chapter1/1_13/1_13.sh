@@ -1,0 +1,1 @@
+docker build -t dwd1_13 . && docker run -p 8080:8080 -t dwd1_13
