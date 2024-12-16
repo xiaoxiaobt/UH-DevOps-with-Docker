@@ -1,0 +1,1 @@
+docker build -t dwd1_12 . && docker run -p 3000:3000 -t dwd1_12
